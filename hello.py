@@ -12,6 +12,7 @@ one_dimension_array = numpy.array([1, 2, 3, 4, 5])
 two_dimension_array = numpy.array([[1, 2, 3], [4, 5, 6]])
 three_dimension_array = numpy.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
 
+print("Array Dimensions")
 # Aqui muestro las dimensiones de cada arreglo
 print(zero_dimension_array.ndim)
 print(one_dimension_array.ndim)
@@ -20,4 +21,4 @@ print(three_dimension_array.ndim)
 
 # Forma de iterar arreglos
 for x in one_dimension_array:
-    print(x)
+    print("Iterating: ", x)
